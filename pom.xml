@@ -47,14 +47,15 @@
                 <version>3.0.0-M1</version>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/milikkan/sfg-pet-clinic.git</developerConnection>
-      <tag>sfg-pet-clinic-0.0.1</tag>
+        <developerConnection>scm:git:git@github.com:milikkan/sfg-pet-clinic.git</developerConnection>
+        <tag>HEAD</tag>
   </scm>
 
 </project>
